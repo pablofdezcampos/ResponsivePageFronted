@@ -1,5 +1,3 @@
-** Responsive_Page **
-
 # Description
 - Projec to develop a front-end web page.
 - Project with responsive design.
