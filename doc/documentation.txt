@@ -1,0 +1,37 @@
+- Extensions:
+    - To run the server : LiveServer
+
+- Label:
+    
+    - Simple labels:
+        - <h1> -> used for the title. <h1> define a bigger importance in the content
+        - <h2>, <h3> ... until <h6> -> h1 is bigger than h2 and so on
+        - <p> -> to write text
+        - <a> -> with attribute href for the link to navigate to another page
+        - <img> -> to show images
+        - <form> -> to generate forms. It has diferent labels:
+                                                - <fieldset> -> like a container that get the form
+                                                - <legend> -> Header title of the form
+                                                - <label> -> Text in the form, it has diferent attribute like place or the input can be of diferents forms
+                                                - <placearea> -> Used to field text description
+
+    - Menu:
+        - Mutiple levels menu -> with <ul> <li> </li> </ul> 
+        - One level menu -> <a>   
+
+    - Icons:
+        -  Pages to search icons: 
+                            - Tabler icons 
+                            - Heroicons
+
+    - Structure: 
+        - <header> -> for the header content
+        - <footer> -> for the footer content
+        - <main> -> for the main content, the most important section of the page
+        - <section> -> to group content
+        - <nav> -> to put the nav menu, what is used to browse the page
+        - <aside> -> lateral content to the rigth or left  
+        - Normally, after the label <header> you have to put a <section>. If the section you put have the main content you have to use <main>
+
+    - Recomendations:
+        - Do not write uppercase text. Wirte lowercase text and in the css change it if u want.
