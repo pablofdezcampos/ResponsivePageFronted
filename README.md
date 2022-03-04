@@ -4,5 +4,5 @@
 - Projec to develop a front-end web page.
 - Project with responsive design.
 
-#Technologies
+# Technologies
 - HTML for the sctructure of the page
