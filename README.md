@@ -1,4 +1,4 @@
-<h1> Responsive_Page </h1>
+** Responsive_Page **
 
 # Description
 - Projec to develop a front-end web page.
