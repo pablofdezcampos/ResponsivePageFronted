@@ -4,4 +4,3 @@
 
 # Technologies
 - HTML for the sctructure and elements of the page.
-https://raw.githubusercontent.com/pabofdezcampos/Responsive_Page/blob/master/img/background.jpg
