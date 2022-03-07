@@ -63,7 +63,7 @@
         - For the font-size we use rem. With:
                                             - html {font-size: 62.5%;}
                                             - body {font-size: 16px;}
-                                            - Easier way to code with rem.
+                                            - Easier way to code with rem, cause of 1rem = 10px
 
 - Specefity: the navigator is going to choose the specifier css declarations.
 
@@ -71,3 +71,10 @@
                          -> <link href="google.docs" />
 
 - Normalice -> help to get a main view to the diferent navigators. Add a link with preload to
+
+- Display: 
+        - block -> under the previous elements
+        - inline -> to the rigth of the previous element
+
+- Write CSS:
+        - To write CSS we use module writting        

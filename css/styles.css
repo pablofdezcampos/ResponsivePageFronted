@@ -3,7 +3,7 @@
     --white: #ffffff;
     --black: #212121;
     --primary: rgba(0, 191, 216, 1);
-    --secondary: #ffec00;
+    --secondary: #ffee00;
 
     /*FONTSIZE*/
     --mainFontSize: 3.8rem;
@@ -29,4 +29,36 @@ h1.title {
 
 h1.title span {
     font-size: 2rem;
+}
+
+div.nav-background{
+    background-color: var(--primary);
+}
+
+.container-center{
+    width: 120rem; /* 1200 px*/
+    /*margin: 0 auto 0 auto; if they repeat, u can simplify*/
+    margin: 0 auto; /* to align to the center */
+}
+
+nav.main-nav{
+    font-size: 2rem;
+    display: flex; /* default flex-direction: row */
+    justify-content: space-between;
+}
+
+.main-nav a{
+    color: var(--white);
+    text-decoration: none;
+    font-weight: bold;
+    padding: 1rem;
+}
+
+.main-nav a:hover{
+    background-color: var(--secondary);
+    color: var(--black);
+}
+
+@media (min-width: 480px) {
+    
 }
