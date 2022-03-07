@@ -1,3 +1,5 @@
+#HTML
+
 - Extensions:
     - To run the server : LiveServer
 
@@ -35,3 +37,23 @@
 
     - Recomendations:
         - Do not write uppercase text. Wirte lowercase text and in the css change it if u want.
+
+
+
+#CSS
+
+- What is CSS -> sheet style on cascade. It is on cascade cause of if you have the same selector in a file.css, that file is going to choose the last code.
+
+- Version: CSS3
+
+- Functions : 
+        - Size and sizes of fonts
+        - Colors
+        - Spaces
+        - Margins
+        - Responsive design
+        - Animations      
+
+- Call of css:
+        - <style> h1 {} </style>
+        - Folder css, and inside the styles.css -> <link href="css/styles.css" />
