@@ -66,3 +66,8 @@
                                             - Easier way to code with rem.
 
 - Specefity: the navigator is going to choose the specifier css declarations.
+
+- Fonts: to search fonts -> google.fonts
+                         -> <link href="google.docs" />
+
+- Normalice -> help to get a main view to the diferent navigators. Add a link with preload to

@@ -7,6 +7,9 @@
 
     /*FONTSIZE*/
     --mainFontSize: 3.8rem;
+
+    /*FONTSTYLE*/
+    --mainFontStyle: 'PT Sans', sans-serif;
 } 
 
 html {
@@ -15,11 +18,13 @@ html {
 
 body {
     font-size: 16px; /* 1 rem = 16px */
+    font-family: var(--mainFontStyle); /* Aplied the mainFontStyle in all the body*/
 }
 
 h1.title {
     font-size: var(--mainFontSize);
     text-align: center;
+    font-weight: normal;
 }
 
 h1.title span {
