@@ -3,7 +3,7 @@
     --white: #ffffff;
     --black: #212121;
     --primary: rgba(0, 191, 216, 1);
-    --secondary: #ffee00;
+    --secondary: #ffbf00;
 
     /*FONTSIZE*/
     --mainFontSize: 3.8rem;
@@ -14,6 +14,13 @@
 
 html {
     font-size: 62.5%;
+    /* Snippets for BOX MODEL */
+    box-sizing: border-box;
+
+}
+
+*, *::before::after{
+    box-sizing: inherit;
 }
 
 body {
@@ -21,10 +28,14 @@ body {
     font-family: var(--mainFontStyle); /* Aplied the mainFontStyle in all the body*/
 }
 
+h1, h2, h3{
+    text-align: center;
+}
+
 h1.title {
     font-size: var(--mainFontSize);
-    text-align: center;
     font-weight: normal;
+    text-align: center;
 }
 
 h1.title span {
@@ -36,18 +47,33 @@ div.nav-background{
 }
 
 .container-center{
-    width: 120rem; /* 1200 px*/
+    max-width: 90rem; /* 1200 px*/
     /*margin: 0 auto 0 auto; if they repeat, u can simplify*/
     margin: 0 auto; /* to align to the center */
+}
+
+.button{
+    background-color: var(--primary);
+    color: var(--white);
+    padding: 1rem 3rem;
+    margin-top: 6rem;
+    font-size: 2rem;
+    font-weight: bold;
+    text-transform: uppercase;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 0.8rem;
+    width: 80%;
 }
 
 nav.main-nav{
     font-size: 2rem;
     display: flex; /* default flex-direction: row */
-    justify-content: space-between;
+    flex-direction: column;
 }
 
 .main-nav a{
+    text-align: center;
     color: var(--white);
     text-decoration: none;
     font-weight: bold;
@@ -59,6 +85,51 @@ nav.main-nav{
     color: var(--black);
 }
 
-@media (min-width: 480px) {
-    
+section.hero{
+    background-image: url("../img/back.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 60rem;
+    position: relative;
 }
+
+section div.img-container{
+    position: absolute;
+    background-color: rgb(0 0 0 / 50%);
+    width: 100%;
+    height: 100%;
+
+    /*TO ALIGN VERTICAL AND HORIZONTAL*/
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+section div h2{
+    font-size: 4rem;
+}
+
+section div h2, p{
+    color: var(--white);
+}
+
+section div, p{
+    font-size: 2rem;
+}
+
+
+@media (min-width: 768px) {
+    nav.main-nav{
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+    section div h2{
+        font-size: 8rem;
+    }
+    
+    .button{
+        width: auto;
+    }
+ }

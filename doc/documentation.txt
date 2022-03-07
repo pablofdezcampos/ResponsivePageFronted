@@ -75,6 +75,8 @@
 - Display: 
         - block -> under the previous elements
         - inline -> to the rigth of the previous element
+        - flex -> align horizontal with justify-content if the flex-direction it´s row. Else align vertical with align-itmes if flex-direction it´s column   
+        - grid ->
 
 - Write CSS:
         - To write CSS we use module writting        
