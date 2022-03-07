@@ -1,5 +1,27 @@
-h1 {
-    text-transform: uppercase;
-    color: #000;
+:root{
+    /* COLORS */
+    --white: #ffffff;
+    --black: #212121;
+    --primary: rgba(0, 191, 216, 1);
+    --secondary: #ffec00;
+
+    /*FONTSIZE*/
+    --mainFontSize: 3.8rem;
+} 
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    font-size: 16px; /* 1 rem = 16px */
+}
+
+h1.title {
+    font-size: var(--mainFontSize);
     text-align: center;
+}
+
+h1.title span {
+    font-size: 2rem;
 }

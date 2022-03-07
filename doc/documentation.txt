@@ -54,6 +54,15 @@
         - Responsive design
         - Animations      
 
-- Call of css:
+- CSS call:
         - <style> h1 {} </style>
         - Folder css, and inside the styles.css -> <link href="css/styles.css" />
+
+- Propierties:
+        - For the font-size we use em, that rebuild the size depend on the father label.
+        - For the font-size we use rem. With:
+                                            - html {font-size: 62.5%;}
+                                            - body {font-size: 16px;}
+                                            - Easier way to code with rem.
+
+- Specefity: the navigator is going to choose the specifier css declarations.
