@@ -4,4 +4,4 @@
 
 # Technologies 
 - HTML5 for the sctructure and elements of the page.
-- CSS3 for the styles of the elements in the page
+- CSS3 for the styles of the elements in the page.
