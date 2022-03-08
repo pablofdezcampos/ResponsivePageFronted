@@ -10,5 +10,5 @@
 - Header
 - Main Menu
 - Services
-- Form of contact
+- Contact form
 - Footer
