@@ -83,6 +83,10 @@
 
 - To design box shadow -> cssmatic.com/box-shadow
 
+- WHEN I HAVE TO USE FLEX OR GRID?
+    - FlexBox -> to align elements that are inside container like a navigation bar
+    - Grid -> to distribute element in row or column. Use to layouts
+
 
 #BROWSER
 
