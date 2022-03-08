@@ -8,7 +8,6 @@
 
 # VIEW
 - Header
-https://github.com/pabofdezcampos/Responsive_Page/blob/master/img/back.jpg
 - Main Menu
 - Services
 - Form of contact
