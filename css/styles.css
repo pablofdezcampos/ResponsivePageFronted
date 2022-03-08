@@ -13,8 +13,8 @@
 } 
 
 html {
-    font-size: 62.5%;
     /* Snippets for BOX MODEL */
+    font-size: 62.5%;
     box-sizing: border-box;
 
 }
@@ -26,10 +26,18 @@ html {
 body {
     font-size: 16px; /* 1 rem = 16px */
     font-family: var(--mainFontStyle); /* Aplied the mainFontStyle in all the body*/
+    background-image: linear-gradient(to top, rgb(207, 199, 199) 0%, white 100%); /* Gradient effect (to top)*/
 }
 
 h1, h2, h3{
     text-align: center;
+}
+
+.shadow{
+    box-shadow: 10px 5px 15px 0px rgba(168,166,168,0.55);
+    background-color: var(--white);
+    padding: 2rem;
+    border-radius: 3rem;
 }
 
 h1.title {
@@ -91,6 +99,7 @@ section.hero{
     background-size: cover;
     height: 60rem;
     position: relative;
+    margin-bottom: 2rem;
 }
 
 section div.img-container{
@@ -116,6 +125,11 @@ section div h2, p{
 
 section div, p{
     font-size: 2rem;
+}
+
+.ubication{
+    display: flex;
+    align-items: flex-end;
 }
 
 

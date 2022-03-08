@@ -36,7 +36,7 @@
         - Normally, after the label <header> you have to put a <section>. If the section you put have the main content you have to use <main>
 
     - Recomendations:
-        - Do not write uppercase text. Wirte lowercase text and in the css change it if u want.
+        - Do not write uppercase text. Write lowercase text and in the css change it if u want.
 
 
 
@@ -79,4 +79,11 @@
         - grid ->
 
 - Write CSS:
-        - To write CSS we use module writting        
+        - To write CSS we use module writting
+
+- To design box shadow -> cssmatic.com/box-shadow
+
+
+#BROWSER
+
+- CSS versions is not supported in all the browers. To check elements of css go in to canisuse.com
