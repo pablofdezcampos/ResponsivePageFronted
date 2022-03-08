@@ -19,8 +19,17 @@ html {
     /* Snippets for BOX MODEL */
     font-size: 62.5%;
     box-sizing: border-box;
-
+    scroll-snap-type: y mandatory;
 }
+
+/*SCROLL*/
+
+.services, .nav-background, .hero, .container-center, .form, .footer{
+    scroll-snap-align: center;
+    scroll-snap-stop: always;
+} 
+
+/* END SCROLL*/
 
 *, *::before::after{
     box-sizing: inherit;
@@ -122,7 +131,6 @@ nav.main-nav{
 }
 
 /*SERVICES SECTION*/
-
 
 section div.img-container{
     position: absolute;
@@ -295,4 +303,8 @@ section div, p{
     .field:nth-child(1), .field:nth-child(2){
         width: 97%;
     }
+    .services, .nav-background, .hero, .form, .container-center, .footer{
+        scroll-snap-align: center;
+        scroll-snap-stop: always;
+    } 
  }
