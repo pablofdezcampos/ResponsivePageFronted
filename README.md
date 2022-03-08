@@ -12,3 +12,6 @@
 - Services
 - Contact form
 - Footer
+
+# VIEW
+-https://zealous-perlman-0d32a6.netlify.app/
