@@ -14,4 +14,4 @@
 - Footer
 
 # VIEW
-- https://homepageresponsivefrontepf.netlify.app/
+- https://homepageresponsivefrontedpf.netlify.app/
