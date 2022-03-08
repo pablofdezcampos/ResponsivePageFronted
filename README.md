@@ -14,4 +14,4 @@
 - Footer
 
 # VIEW
-- https://zealous-perlman-0d32a6.netlify.app/
+- https://homepageresponsivefrontepf.netlify.app/
